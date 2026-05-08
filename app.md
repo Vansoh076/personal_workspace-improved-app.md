@@ -12,9 +12,9 @@ Users can register, log in, create workspaces with notes/files/videos, download 
 ## Stack
 
 - **Backend:** Python 3.12 / Flask
-- **Database:** PostgreSQL (Replit built-in, `DATABASE_URL` env var) with SQLite fallback (`workspace.db`) via `db_compat.py`
+- **Database:** PostgreSQL with SQLite fallback (`workspace.db`) via `db_compat.py`
 - **Frontend:** HTML/CSS/JavaScript with Bootstrap 5 and Jinja2 templating
-- **Python path:** `/home/runner/workspace/.pythonlibs/bin/python3.12`
+
 
 ## Database
 
